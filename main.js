@@ -6,4 +6,11 @@ function main() {
     return;
   }
 }
+const vertex = [
+  // Ground
+  16, 0, 16,
+  -16, 0, 16,
+  -16, 0, -16,
+  16, 0, -16
+];
 window.onload = main;
